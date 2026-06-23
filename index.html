@@ -1,40 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kingdom Teachings</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f7fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        a {
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            padding: 18px 36px;
-            border-radius: 10px;
-            font-size: 20px;
-            font-weight: bold;
-            transition: background 0.2s;
-        }
+<title>Kingdom Teachings</title>
 
-        a:hover {
-            background: #1d4ed8;
-        }
-    </style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f5f7fb;
+    color:#1f2937;
+}
+
+/* Hero Section */
+
+.hero{
+    background:linear-gradient(135deg,#1e3a8a,#2563eb);
+    color:white;
+    text-align:center;
+    padding:90px 20px 80px;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:720px;
+    margin:auto;
+    font-size:1.15rem;
+    line-height:1.8;
+    opacity:.95;
+}
+
+/* Main */
+
+.container{
+    max-width:900px;
+    margin:70px auto;
+    padding:0 20px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:40px;
+    color:#1e3a8a;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:40px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    border:1px solid #e5e7eb;
+    transition:.25s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 25px 60px rgba(37,99,235,.18);
+}
+
+.badge{
+    display:inline-block;
+    background:#dbeafe;
+    color:#2563eb;
+    font-size:.85rem;
+    font-weight:600;
+    padding:6px 12px;
+    border-radius:999px;
+    margin-bottom:20px;
+}
+
+.card h2{
+    font-size:2rem;
+    margin-bottom:18px;
+}
+
+.card p{
+    color:#6b7280;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.button{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:16px 34px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.2s;
+}
+
+.button:hover{
+    background:#1d4ed8;
+}
+
+footer{
+    text-align:center;
+    color:#9ca3af;
+    padding:60px 20px;
+    font-size:.95rem;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.2rem;
+}
+
+.card{
+    padding:30px;
+}
+
+.card h2{
+    font-size:1.6rem;
+}
+
+}
+
+</style>
+
 </head>
+
 <body>
 
-<a href="Hearing God's Voice - Summary & Roadmap.html">
-    Hearing God's Voice
+<section class="hero">
+
+<h1>Kingdom Teachings</h1>
+
+<p>
+A growing collection of biblical teachings designed to help believers know Christ,
+hear His voice, and walk in the power of the Holy Spirit through practical,
+Scripture-centred discipleship.
+</p>
+
+</section>
+
+<div class="container">
+
+<h2 class="section-title">
+Available Teaching
+</h2>
+
+<div class="card">
+
+<div class="badge">
+Teaching #1
+</div>
+
+<h2>🎙 Hearing God's Voice</h2>
+
+<p>
+Discover the biblical foundations for hearing God's voice with confidence.
+This teaching includes practical activation, two-way journaling, discernment,
+and a clear roadmap for developing a lifestyle of listening to the Holy Spirit.
+</p>
+
+<a class="button" href="Hearing God's Voice - Summary & Roadmap.html">
+Open Teaching →
 </a>
+
+</div>
+
+</div>
+
+<footer>
+
+"Today, if you hear His voice, do not harden your hearts." — Hebrews 3:15
+
+</footer>
 
 </body>
 </html>
